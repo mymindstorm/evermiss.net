@@ -1,0 +1,37 @@
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+  <Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+    <Account>
+      <AccountType>email</AccountType>
+      <Action>settings</Action>
+      <Protocol>
+        <Type>IMAP</Type>
+        <Server>skarmory.evermiss.net</Server>
+        <Port>993</Port>
+        <SSL>on</SSL>
+        <SPA>off</SPA>
+        <DomainRequired>on</DomainRequired>
+        <AuthRequired>on</AuthRequired>
+      </Protocol>
+      <Protocol>
+        <Type>POP3</Type>
+        <Server>skarmory.evermiss.net</Server>
+        <Port>995</Port>
+        <SSL>on</SSL>
+        <SPA>off</SPA>
+        <DomainRequired>on</DomainRequired>
+        <AuthRequired>on</AuthRequired>
+      </Protocol>
+      <Protocol>
+        <Type>SMTP</Type>
+        <Server>skarmory.evermiss.net</Server>
+        <Port>465</Port>
+        <SSL>on</SSL>
+        <SPA>off</SPA>
+        <DomainRequired>on</DomainRequired>
+        <AuthRequired>on</AuthRequired>
+        <UsePOPAuth>on</UsePOPAuth>
+        <SMTPLast>on</SMTPLast>
+      </Protocol>
+    </Account>
+  </Response>
+</Autodiscover>
